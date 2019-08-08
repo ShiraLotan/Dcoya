@@ -23,13 +23,11 @@ function Topmainbar() {
 
         {cards.map((card,i)=> 
           <Container key={i} fixed='true'>
-            <div className='cardWrapper'>
-          <Card key={i} class='card'>
-            <CardContent>
-              <div><img className='mainIcon' src={card.logo} alt=''/><span className='number'>{card.number}</span><div>{card.head}</div></div>
+          <Card key={i} class='card' id={'headline'+i}>
+            <CardContent className='cardCont'>
+              <div ><img className='mainIcon' src={card.logo} alt=''/><span className='number'>{card.number}</span><div>{card.head}</div></div>
             </CardContent>
              </Card>
-            </div>
           </Container>
     )}
      </div>
