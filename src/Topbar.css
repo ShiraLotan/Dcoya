@@ -1,0 +1,46 @@
+
+.barDesign{
+  box-shadow: 0 0 5px rgba(54, 184, 245, 0.05), 2px 2px 5px rgba(23, 143, 241, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+  width: 160px;
+  background-color: white;
+  float: right;
+  position: relative;
+  top:100px;
+  right: 40px;
+  width:90%;
+  height:130px;
+}
+.card{
+  position: relative;
+  bottom: 15px;
+  height:130px ;
+  width:200px;
+  text-align: left;
+  padding-top:10px;
+  border-right:0.5 black solid;
+  float: left;
+  border-right: 0.3px #d9e4f6 solid;
+
+}
+.mainIcon{
+  height:50px;
+  width:50px;
+  float: left;
+  margin: auto;
+}
+.number{
+  font-size: 30px;
+  margin:4px;
+  background: -webkit-linear-gradient(#1f51d8 , #80aff7 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headline{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.cardWrapper{
+}
