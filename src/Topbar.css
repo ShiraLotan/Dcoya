@@ -3,12 +3,12 @@
   box-shadow: 0 0 5px rgba(54, 184, 245, 0.05), 2px 2px 5px rgba(23, 143, 241, 0.1);
   border-radius: 4px;
   padding: 0;
-  width: 160px;
+  width: 190px;
   background-color: white;
   float: right;
   position: relative;
   top:100px;
-  right: 40px;
+  left: 40px;
   width:90%;
   height:130px;
   padding-top:15px;
@@ -16,8 +16,9 @@
 .card{
   position: relative;
   bottom: 15px;
+  
   height:130px ;
-  width:200px;
+  width:226px;
   text-align: left;
   padding-top:10px;
   margin-left:5px;

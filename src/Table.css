@@ -1,0 +1,33 @@
+.fullTable{
+  width:90%;
+
+}
+.topHead{
+  background-image: linear-gradient(to right, #202b42 ,#2d3c5a);
+  border-right: 2px white solid;
+  color: white !important;
+  padding: 0;
+
+}
+.workertable{
+  position: relative;
+  top:260px;
+  left:170px;
+  width:90%;
+  box-shadow: 0 0 5px #eaf2f9, 2px 2px 5px #eaf2f9 !important;
+  border-radius: 4px;
+  
+}
+.searchImg{
+  color: white;
+  position: relative;
+  right:20px;
+}
+.topHead{
+white-space: nowrap !important;
+color: white;
+text-align: left;
+}
+.inpLine{
+  color: white !important;
+}
